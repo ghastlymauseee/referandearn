@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Find referral codes, invite offers and signup rewards for popular apps in India. Check offer details and eligibility before joining.">
+  <meta name="description" content="Find referral links, invite offers and signup rewards for Airbnb, CashKaro, INDmoney, redBus and more in India. Check eligibility and offer terms before joining.">
   <meta name="theme-color" content="#155eef">
   <title>Referandearn | Referral Codes & Invite Offers in India</title>
   <style>
@@ -58,17 +58,17 @@
     <span class="eyebrow">Referral codes in one place</span>
     <h1>Find your next offer.<br><span>Refer. Earn. Repeat.</span></h1>
     <p class="lead">Explore referral links and invite offers across finance, shopping, food, travel, learning and more. Check the terms before you sign up.</p>
-    <div class="searchbox"><input id="search" type="search" placeholder="Search an app (e.g. Groww, CRED, Swiggy)" aria-label="Search apps"><button class="primary" id="searchBtn">Search offers</button></div>
+    <div class="searchbox"><input id="search" type="search" placeholder="Search an app (e.g. Airbnb, CashKaro, INDmoney)" aria-label="Search apps"><button class="primary" id="searchBtn">Search offers</button></div>
     <p class="smallprint">Offer availability and eligibility can change. Always confirm the latest terms with the app.</p>
   </div>
   <div class="hero-art" aria-label="Illustration of a referral offer"><div class="phone"><div class="gift">🎁</div><b>Your next invite offer</b><small>Find an app. Check the terms.</small><div class="mini">EXPLORE OFFERS ✓</div></div></div>
 </div></section>
 
 <section class="section" id="apps"><div class="wrap">
-  <div class="sectionhead"><div><h2>Explore referral offers</h2><p>Starter directory. Add your own links and verify each offer before publishing.</p></div></div>
+  <div class="sectionhead"><div><h2>Explore referral offers</h2><p>Referral links shared by the site owner, with offer details to help you get started.</p></div></div>
   <div class="filters" id="filters" aria-label="Filter by category"></div>
   <div class="cards" id="cards"></div>
-  <p class="smallprint" style="margin-top:18px">Demo note: The buttons below are placeholders until you add your actual referral URLs. No reward or offer is guaranteed.</p>
+  <p class="smallprint" style="margin-top:18px">Some listings are placeholders while the owner collects more links. Rewards, discount codes and eligibility can change; confirm the latest terms with the provider before signing up.</p>
 </div></section>
 
 <section class="section" id="how" style="background:#f9fafb"><div class="wrap">
@@ -89,9 +89,14 @@
 </main>
 <footer><div class="wrap"><div class="footerrow"><a class="brand" href="#" style="font-size:18px"><span class="brandmark" style="width:29px;height:29px;font-size:16px">↗</span>Referandearn</a><div class="footerlinks"><a href="#faq">FAQs</a><a href="privacy.html">Privacy</a><a href="disclaimer.html">Disclaimer</a><a href="mailto:YOUR_EMAIL@example.com">Contact</a></div></div><p>© <span id="year"></span> Referandearn. Independent referral directory.</p><p class="smallprint">This site is an independent directory and is not affiliated with the listed companies unless specifically stated. Please verify offers on the official provider website.</p></div></footer>
 <script>
-const categories = ["All categories","Finance & Banking","Investing","Shopping","Food & Delivery","Travel","Education","Entertainment","Other"];
+const categories = ["All categories","Finance & Banking","Investing","Shopping","Food & Delivery","Travel","Home & Hosting","Education","Entertainment","Other"];
 // Replace placeholder URLs and offer details with your own current, approved referral links before launch.
 const offers = [
+ {name:"Airbnb — First Stay",cat:"Travel",icon:"🏡",desc:"Invite offer for new Airbnb users. The referral message advertises up to ₹1,275 off a first stay; terms and eligibility apply.",offer:"Up to ₹1,275 off your first stay · New users · Terms apply",url:"https://www.airbnb.com/c/IXhosNqNO0dRZy11",status:"Invite offer"},
+ {name:"Airbnb — Start Hosting",cat:"Home & Hosting",icon:"🗝️",desc:"Start a home, experience or service listing on Airbnb using Priyansh's host referral link. Earnings estimates are not guaranteed.",offer:"Host referral link · Earnings depend on your listing and bookings",url:"https://www.airbnb.co.in/rp/priyanshg298?s=76&unique_share_id=aae9b736-121b-4bb0-a681-7ff33c22f253",status:"Host referral"},
+ {name:"CashKaro",cat:"Shopping",icon:"🛍️",desc:"Earn additional cashback on eligible shopping through CashKaro, including supported retailers. Check the app for tracked orders and withdrawal rules.",offer:"Cashback on eligible purchases · Terms vary by retailer",url:"https://cashk.app.link/RfcwIlDKD7b",status:"Referral link"},
+ {name:"INDmoney",cat:"Finance & Banking",icon:"💰",desc:"Referral invitation with reward code PRI711GTUSRU. The message says the ₹550 reward code expires in 24 hours, so confirm it is still valid before using.",offer:"Advertised ₹550 reward · Code: PRI711GTUSRU · Check expiry",url:"https://indmoney.onelink.me/RmHC/fii7cjja",status:"Check expiry"},
+ {name:"redBus",cat:"Travel",icon:"🚌",desc:"Use referral code redlehr1 when signing up. The shared message advertises code FIRST for 20% off up to ₹150 and ₹100 cashback on a first bus booking; conditions apply.",offer:"Referral code: redlehr1 · Promo code: FIRST · Terms apply",url:"https://m6pe.app.link/referral_onboarding2?referralCode=redlehr1&referralAmount=0",status:"Referral offer"},
  {name:"Groww",cat:"Investing",icon:"📈",desc:"Investing and demat account referral offer. Verify eligibility and current rewards.",offer:"Add current offer details",url:"",status:"Verify offer"},
  {name:"CRED",cat:"Finance & Banking",icon:"💳",desc:"Credit card bill payments and rewards. Check current invite eligibility.",offer:"Add current offer details",url:"",status:"Verify offer"},
  {name:"PhonePe",cat:"Finance & Banking",icon:"🟣",desc:"Payments app. Referral campaigns may vary by user and region.",offer:"Add current offer details",url:"",status:"Verify offer"},
