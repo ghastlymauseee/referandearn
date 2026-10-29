@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /referandearn/
+
+Sitemap: https://ghastlymauseee.github.io/referandearn/sitemap.xml
